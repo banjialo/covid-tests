@@ -15,7 +15,6 @@ library (janitor)
 
 
 #Set working directory
-setwd ("U:/CDU/CduImt/CDB led/2019-nCoV 2020/EPI/Case Line List - NOCS Reporting/Do files for daily numbers/DART North Brisbane/GE/Qld")
 
 #read csv file
 lab_fread <- fread (file = "labs_csv.csv", stringsAsFactors = FALSE)
